@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url('back.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;  height: atuo;
+    
+  }
+iframe{
+  vertical-align: bottom;
+}
+blockquote{
+  vertical-align: bottom;
+}
+li{
+  list-style: none;
+}
+a{
+  color: black; text-decoration: none;
+}
+.whitesheet{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.8); /* 透明度 50% の白色 */
+}
+
+
+
+@media(min-width:1460px){
+  .header{
+    background: linear-gradient(to right, rgb(42, 42, 129), rgb(69, 116, 167));
+    color: white;
+    padding: 100px 70px 10px 10px;  font-size: 30px; font-weight: bold;  box-shadow: 0 0 16px rgb(180, 180, 180);
+    }
+  
+    .container{
+      padding: 0px 0px 0px 30px; display: flex;
+    }
+    .title{
+      font-size: 23px;  font-weight: bold;  margin: 50px 0px 0px 30px;
+
+    }
+    .menu{
+      font-size: 17px;  font-weight: bold;
+    }
+    .container ul{
+      font-size: 17px;  line-height: 200%;  margin: 20px 0px 40px -40px;
+    }
+  
+    .listone{
+      background-color: white;  padding: 12px;  margin: 20px 0px 0px 30px;
+      border-radius: 30px 0px 0px 30px; box-shadow: 0 0 16px rgb(180, 180, 180);
+    }
+    .line{
+      display: flex;
+    }
+    .icon{
+      height: 25px; margin: 0px 20px 0px 0px;
+    }
+  
+  
+    .card{
+      background-color: white;  padding: 30px;  margin: 60px 40px 0px -10px;  
+      border-radius: 30px;  box-shadow: 0 0 16px rgba(32, 32, 101, 0.3);  text-align: center; 
+      width: 400px;
+    }
+  
+    .sam{
+      height: 200px;  border-radius: 25px;  transition: .3s ease;
+    }
+    .sam:hover {
+      transform: translateY(-20%);
+      box-shadow: rgba(43, 74, 141, 0.25) 0px 13px 47px -5px, rgba(44, 97, 127, 0.3) 0px 8px 16px -8px;
+     }
+     .containerEx{
+      padding: 10px 5px 0px 5px;
+     }
+     .explain{
+      font-size: 17px; margin: 10px 0px 0px 0px;
+     }
+     
+     .icontwi{
+      height: 120px; margin: 0px 0px 20px 0px; 
+     }
+  
+     .icons {
+      display: flex;
+      justify-content: center;  margin: 0px 0px 50px 0px;
+    }
+    
+    .sns {
+      height: 25px;
+      margin: 20px 20px 0px 20px;
+      padding: 0;  filter: brightness(130%) grayscale(20%);
+    }
+    .footer{
+      margin: 100px 0px 0px 0px;
+      background: linear-gradient(to right, rgb(42, 42, 129), rgb(69, 116, 167));
+      color: white; text-align: center;
+      padding: 100px 0px 100px 0px;  font-size: 20px; font-weight: bold;  box-shadow: 0 0 16px rgb(180, 180, 180);
+    }
+    .top{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 40px;
+      background-color: rgb(255, 255, 255);  padding: 12px 15px 12px 15px; border-radius: 50px;  box-shadow: 0 0 16px rgb(180, 180, 180);
+      margin: 50px;
+    }
+}
+
+
+@media(min-width:1100px) and (max-width:1459px){
+  .header{
+    background: linear-gradient(to right, rgb(42, 42, 129), rgb(69, 116, 167));
+    color: white;
+    padding: 100px 70px 10px 10px;  font-size: 30px; font-weight: bold;  box-shadow: 0 0 16px rgb(180, 180, 180);
+    }
+  
+    .container{
+      display: flex;  flex-wrap: wrap;  padding: 0px; padding: 0px 0px 0px 30px;
+    }
+    .title{
+      font-size: 20px;  font-weight: bold;  margin: 50px 0px 0px 30px;
+
+    }
+    /*menu新しい*/
+    .menu{
+      font-size: 17px;  font-weight: bold;
+    }
+    .container ul{
+      font-size: 17px;  line-height: 200%;  margin: 20px 0px 40px -40px; 
+    }
+  
+    .listone{
+      background-color: white;  padding: 12px;  margin: 20px 0px 0px 30px;
+      border-radius: 30px 0px 0px 30px; box-shadow: 0 0 16px rgb(180, 180, 180);
+    }
+    .line{
+      display: flex;
+    }
+    .icon{
+      height: 25px; margin: 0px 20px 0px 0px;
+    }
+  
+  
+    .card{
+      background-color: white;  padding: 30px;  margin: 60px 40px 0px -10px;  
+      border-radius: 30px;  box-shadow: 0 0 16px rgba(32, 32, 101, 0.3);  text-align: center; 
+      width: 400px;
+    }
+  
+    .sam{
+      height: 200px;  border-radius: 25px;  transition: .3s ease;
+    }
+    .sam:hover {
+      transform: translateY(-20%);
+      box-shadow: rgba(43, 74, 141, 0.25) 0px 13px 47px -5px, rgba(44, 97, 127, 0.3) 0px 8px 16px -8px;
+     }
+     .containerEx{
+      padding: 10px 5px 0px 5px;
+     }
+     .explain{
+      font-size: 16px; margin: 10px 0px 0px 0px;
+     }
+     
+     .icontwi{
+      height: 120px; margin: 0px 0px 20px 0px; 
+     }
+  
+     .icons {
+      display: flex;
+      justify-content: center;  margin: 0px 0px 50px 0px;
+    }
+    
+    .sns {
+      height: 25px;
+      margin: 20px 20px 0px 20px;
+      padding: 0;  filter: brightness(130%) grayscale(20%);
+    }
+    .footer{
+      margin: 100px 0px 0px 0px;
+      background: linear-gradient(to right, rgb(42, 42, 129), rgb(69, 116, 167));
+      color: white; text-align: center;
+      padding: 100px 0px 100px 0px;  font-size: 20px; font-weight: bold;  box-shadow: 0 0 16px rgb(180, 180, 180);
+    }
+    .top{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 40px;
+      background-color: rgb(255, 255, 255);  padding: 12px 15px 12px 15px; border-radius: 50px;  box-shadow: 0 0 16px rgb(180, 180, 180);
+      margin: 30px;
+    }
+}
+
+
+
+
+
+@media(min-width:0px) and (max-width:1099px){
+  .header{
+  background: linear-gradient(to right, rgb(42, 42, 129), rgb(69, 116, 167));
+  color: white;
+  padding: 100px 70px 10px 10px;  font-size: 22px; font-weight: bold;  box-shadow: 0 0 16px rgb(180, 180, 180);
+  }
+
+  .container{
+    padding: 0px 0px 0px 30px; margin: 0px 0px 0px 0px;
+  }
+  .title{
+    font-size: 17px;  font-weight: bold; margin: 60px 0px 0px 25px;
+  }
+  .menu{
+    font-size: 15px;  font-weight: bold;
+  }
+  .container ul{
+    font-size: 14px;  line-height: 200%;  margin: 20px 0px 40px -40px;
+  }
+
+  .listone{
+    background-color: white;  padding: 12px;  margin: 20px 0px 0px 30px;
+    border-radius: 30px 0px 0px 30px; box-shadow: 0 0 16px rgb(180, 180, 180);
+  }
+  .line{
+    display: flex;
+  }
+  .icon{
+    height: 25px; margin: 0px 20px 0px 0px;
+  }
+
+
+  .card{
+    background-color: white;  padding: 30px;  margin: 60px 20px 0px -10px;  
+    border-radius: 30px;  box-shadow: 0 0 16px rgba(32, 32, 101, 0.3);  text-align: center; 
+  }
+
+  .sam{
+    height: 200px;  border-radius: 25px;  transition: .3s ease;
+  }
+  .sam:hover {
+    transform:  translateY(-20%);
+    box-shadow: rgba(43, 74, 141, 0.25) 0px 13px 47px -5px, rgba(44, 97, 127, 0.3) 0px 8px 16px -8px;
+   }
+   .containerEx{
+    padding: 10px 5px 0px 5px;
+   }
+   .explain{
+    font-size: 13px; margin: 10px 0px 0px 0px;
+   }
+   
+   .icontwi{
+    height: 120px; margin: 0px 0px 20px 0px; 
+   }
+
+   .icons {
+    display: flex;
+    justify-content: center;  margin: 0px 0px 50px 0px;
+  }
+  
+  .sns {
+    height: 25px;
+    margin: 20px 20px 0px 20px;
+    padding: 0;  filter: brightness(130%) grayscale(20%);
+  }
+  .footer{
+    margin: 100px 0px 0px 0px;
+    background: linear-gradient(to right, rgb(42, 42, 129), rgb(69, 116, 167));
+    color: white; text-align: center;
+    padding: 100px 0px 100px 0px;  font-size: 20px; font-weight: bold;  box-shadow: 0 0 16px rgb(180, 180, 180);
+  }
+  .top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 17px;
+    background-color: rgb(255, 255, 255);  padding: 12px 15px 12px 15px; border-radius: 50px;  box-shadow: 0 0 16px rgb(180, 180, 180);
+    margin: 10px;
+  }
+}
+
+
+
